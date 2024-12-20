@@ -32,7 +32,7 @@ public class O_SmallestSubArrayLength {
             if(a[i]==max){
                 latest_max=i;
                 if(latest_min!=-1) {
-                    ans = Math.min(ans, i-latest_min+1);
+                    ans = Math.min(ans,i-latest_min+1);
                     System.out.println("ANS="+ans);
                 }
             }
