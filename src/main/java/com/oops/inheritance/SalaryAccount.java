@@ -13,6 +13,6 @@ public class SalaryAccount extends BaseAccount{
 
     @Override
     public String toString() {
-        return "SalaryAccount{ } balance ="+balance;
+        return String.format("SalaryAccount balance = %s",balance);
     }
 }
