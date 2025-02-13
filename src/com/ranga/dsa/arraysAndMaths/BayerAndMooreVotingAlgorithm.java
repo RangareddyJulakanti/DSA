@@ -23,11 +23,11 @@ public class BayerAndMooreVotingAlgorithm {
 
        }
        int count=0;
-       for(int j=0;j<N;j++){
-           if(element==A[j]){
-               count++;
-           }
-       }
+        for(int i : A) {
+            if (element == i) {
+                count++;
+            }
+        }
         if(count>N/2){
             System.out.println("Frequency element found :"+element);
         }
